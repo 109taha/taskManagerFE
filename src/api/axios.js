@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "task-manager-ep3wfw659-109tahas-projects.vercel.app", // ✅ single backend URL
+  baseURL: "https://task-manager-be-two.vercel.app/", // ✅ single backend URL
 });
 
 // Automatically attach token if it exists
