@@ -1,0 +1,33 @@
+.app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background: #f8f9fa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.input-section input,
+.input-section select {
+  flex: 1;
+  padding: 8px;
+}
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+}
+.logout {
+  float: right;
+  margin-bottom: 20px;
+}
